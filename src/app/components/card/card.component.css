@@ -1,0 +1,10 @@
+.card__container {
+    border: 2px solid #000;
+    margin: 70px auto;
+    height: 600px;
+    width: 400px;
+}
+
+.card__content {
+    height: 100%;
+}

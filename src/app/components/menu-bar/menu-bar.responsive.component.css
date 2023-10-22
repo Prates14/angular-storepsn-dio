@@ -1,0 +1,26 @@
+@media  (max-width: 768px) {
+
+    .menu-bar__content {
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    .menu-bar__nav > .menu-bar__nav__links {
+        gap: 30px;
+    }
+    
+    .menu-bar__nav__links > li {
+        font-size: 15px;
+    }
+
+    .menu-bar__logo > img {
+        width: 100px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .menu-bar__nav > .menu-bar__nav__links {
+        gap: 12px;
+    }
+}
