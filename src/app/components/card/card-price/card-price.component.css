@@ -1,0 +1,41 @@
+.card-price__container {
+    background-color: #000000bd;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    font-family: calibri;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    color: #ffffffbb;
+}
+
+.card-price__content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1px 10px 5px;
+}
+
+.card-price__content__title {
+    margin-bottom: 5px;
+}
+
+.card-price__content__plataform {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    gap: 4px;
+}
+
+.card-price__content__plataform>span {
+    font-weight: bold;
+    color: #00ffff;
+}
+
+.card-price__pricing {
+    margin-bottom: 10px;
+    margin-right: 5px;
+    font-size: 27px;
+}

@@ -3,9 +3,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-    background: rgb(0,43,111);
-    background: linear-gradient(90deg, rgba(0,43,111,1) 11%, rgba(34,0,255,0.9304096638655462) 33%, rgba(0,18,255,1) 53%, rgba(0,142,255,1) 82%);
+    background: rgb(0, 43, 111);
+    background: linear-gradient(90deg, rgba(0, 43, 111, 1) 11%, rgba(34, 0, 255, 0.9304096638655462) 33%, rgba(0, 18, 255, 1) 53%, rgba(0, 142, 255, 1) 82%);
 }

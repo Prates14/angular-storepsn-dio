@@ -24,14 +24,13 @@ a {
     padding-left: 5px;
 }
 
-.menu-bar__nav > .menu-bar__nav__links {
+.menu-bar__nav>.menu-bar__nav__links {
     display: flex;
     gap: 50px;
 }
 
-.menu-bar__nav__links > li {
+.menu-bar__nav__links>li {
     list-style: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     height: 50px;
     display: flex;
@@ -39,7 +38,7 @@ a {
     padding: 10px;
 }
 
-.menu-bar__nav__links > li:hover {
+.menu-bar__nav__links>li:hover {
     font-weight: 700;
     background-color: #0000000a;
 }
